@@ -9,7 +9,7 @@ var rightAnswer3 = 0;
 var rightAnswer4 = 0;
 var answerArray = ["1. Drogon" , " 2. Nymeria" , " 3. Aegon" , " 4. Frostfangs"];
 var myFunchin = function() {
-  $(location).attr('href', '../thronesquiz.html')
+  $(location).attr('href', '../index.html')
 };
 
 var count=30;
