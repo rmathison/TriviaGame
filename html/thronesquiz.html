@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <style>
+  ul#timerer li {
+    display: inline;
+    font-size: 36px;
+
+  }
+  label {
+    display: inline;
+    padding: 0px 60px 0px 60px;
+  }
+  
+  h1 {
+    padding-top: 20px;
+  }
+
+  ul {
+    text-align: center;
+  }
+  img {
+    float: right;
+    width: 40%;
+    height: 700px;
+  }
+  body {
+    background-color: lightblue;
+  }
+  #results {
+      text-align: center;
+      font-size: 30px;
+      padding-top: 100px;
+  }
+
+  </style>
+</head>
+<body id="container">
+<ul id = "timerer"><li> You have </li><li id="timer"></li><li> seconds to complete the Quiz!</li></ul><hr>
+<img src="../assets/kingsroad.jpg">
+
+<h1>What is the name of the dragon Daenerys Targaryen rides?</h1>
+
+<form id="drogon">
+<label>
+  <input id="drogon1" type="radio" name="dragon" value="Drogon"> Drogon</label>
+  <label>
+  <input id="viserion" type="radio" name="dragon" value="Viserion"> Viserion</label>
+  <label>
+  <input id="rhaegel" type="radio" name="dragon" value="Rhaegal"> Rhaegal </label>
+</form> 
+
+<h1>What is the name of Arya's wolf?</h1>
+
+<form id="nym">
+<label>
+  <input id="summer" type="radio" name="wolf" value="Summer"> Summer</label>
+  <label>
+  <input id="shaggy" type="radio" name="wolf" value="Shaggy"> Shaggy</label>
+  <label>
+  <input id="nymeria" type="radio" name="wolf" value="Nymeria"> Nymeria </label>
+</form> 
+
+<h1>Who was the first Targaryen to unite the Seven Kingdoms of Westeros?</h1>
+
+<form id="egg">
+<label>
+  <input id="aegon" type="radio" name="king" value="Aegon"> Aegon</label>
+  <label>
+  <input id="daeron" type="radio" name="king" value="Daeron"> Daeron</label>
+  <label>
+  <input id="jahaerys" type="radio" name="king" value="Jahaerys"> Jaehaerys <label>
+</form> 
+
+<h1>What is the name of the mountain range north of the wall?</h1>
+
+<form>
+<label>
+  <input id="frostfangs" type="radio" name="range" value="Frostfangs"> Frostfangs</label>
+  <label>
+  <input id="thenns" type="radio" name="range" value="Thenns"> Thenns</label>
+  <label>
+  <input id="skirlings" type="radio" name="range="Skirlings"> Skirlings</label>
+</form> 
+<h2 id="results"></h2>
+
+<script type="text/javascript" src="../javascript/triviagame.js"></script>
+
+</body>
+</html>
+
+
+
