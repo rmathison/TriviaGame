@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title></title>
-	<style>
-	body {
-		background-image: url("assets/thewall2.jpg");
-	}
-	#yessir {
-		position: fixed;
-		top: 40%;
-		left: 50%;
-	}
-	#butone {
-		height: 60px;
-		width: 300px;
-	}
-	</style>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>GoT Quiz</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+    body {
+        background-image: url("assets/thewall2.jpg");
+    }
+
+    #yessir {
+        position: fixed;
+        top: 40%;
+        left: 50%;
+    }
+
+    #butone {
+        height: 60px;
+        width: 300px;
+    }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
-<div id="yessir">
-<h1>Game of Thrones Quiz</h1>
-<button id="butone" type="button">Click to begin the quiz my Lord</button>
-</div>
-<script type="text/javascript">
-$("#butone").on('click', function(){
-     window.location = "html/thronesquiz.html";    
-});
-</script>
+    <div id="yessir">
+        <h1>Game of Thrones Quiz</h1>
+        <button id="butone" type="button">Click to begin the quiz my Lord</button>
+    </div>
+    <script type="text/javascript">
+    $("#butone").on('click', function() {
+        window.location = "html/thronesquiz.html";
+    });
+    </script>
 </body>
+
 </html>
