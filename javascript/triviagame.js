@@ -1,4 +1,7 @@
     var isquiz = 1;
+     function hidethequiz() {
+         $("#container").hide();
+     }
     $("#butone").on('click', function() {
         if (isquiz = 1) {
         $("#yessir").hide();
