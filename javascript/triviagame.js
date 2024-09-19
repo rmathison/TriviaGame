@@ -1,3 +1,10 @@
+
+    $("#butone").on('click', function() {
+        $("#yessir").hide()
+        $("#container").show();
+    });
+
+
 $(document).ready(function() {
     var quizLock = false;
 
