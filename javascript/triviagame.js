@@ -1,16 +1,4 @@
-    var isquiz = 1;
-     function hidethequiz() {
-         $("#container").hide();
-     }
-    $("#butone").on('click', function() {
-        if (isquiz = 1) {
-        $("#yessir").hide();
-        isquiz = 0;}
-        function showquiz () {
-        if (isquiz = 0) {
-        $("#container").show();}}
-    });
-    
+$(document).ready(function() {
     var quizLock = false;
 
 
@@ -19,7 +7,9 @@
     var rightAnswer3 = 0;
     var rightAnswer4 = 0;
     var answerArray = ["1. Drogon", " 2. Nymeria", " 3. Aegon", " 4. Frostfangs"];
-    
+    var myFunchin = function() {
+        $(location).attr('href', '../index.html')
+    };
 
     var count = 30;
 
@@ -38,6 +28,10 @@
             function twoSeconds() {
                 $(".results").append(" - The answers are: " + answerArray);
                 setTimeout(threeSeconds, 1000 * 3);
+
+                function threeSeconds() {
+                    myFunchin();
+                    return;
                 }
             }
 
